@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8fb">
+  <meta name="description" content="Una invitación muy especial para celebrar la llegada de Zoe Antonella.">
+  <title>Baby Shower · Zoe Antonella</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="welcome" id="welcome" aria-label="Bienvenida">
+      <div class="paper-card">
+        <div class="stars" aria-hidden="true">✦　·　✧　·　✦</div>
+        <div class="teddy" aria-hidden="true">
+          <span class="ear ear-left"></span><span class="ear ear-right"></span>
+          <span class="bear-face"><i class="eye eye-left"></i><i class="eye eye-right"></i><i class="nose"></i><i class="muzzle"></i></span>
+          <span class="bow">♡</span>
+        </div>
+        <p class="eyebrow">UNA CELEBRACIÓN MUY ESPECIAL</p>
+        <h1>Baby Shower</h1>
+        <p class="name">Zoe Antonella</p>
+        <p class="intro">Una bebé está en camino y queremos compartir esta alegría contigo.</p>
+        <button class="open-button" id="openInvite" type="button">Abrir invitación <span>♡</span></button>
+        <p class="small-note">Con cariño, Melissa y Antonio</p>
+      </div>
+      <div class="corner corner-top">✿</div>
+      <div class="corner corner-bottom">✿</div>
+    </section>
+
+    <section class="invitation hidden" id="invitation" aria-label="Invitación">
+      <header class="section-heading">
+        <p class="eyebrow">CON MUCHA ILUSIÓN</p>
+        <h2>¡Te esperamos!</h2>
+        <p>Disfruta de nuestra invitación</p>
+      </header>
+
+      <div class="video-frame">
+        <video id="inviteVideo" controls playsinline preload="metadata" poster="">
+          <source src="video-invitacion.mp4" type="video/mp4">
+          Tu navegador no puede reproducir este video.
+        </video>
+      </div>
+
+      <div class="actions">
+        <a class="action-button" id="mapsButton" href="" target="_blank" rel="noopener" aria-disabled="false">
+          <span class="action-icon">⌖</span>
+          <span><strong>Ver ubicación</strong><small>Abre el mapa del evento</small></span>
+        </a>
+        <a class="action-button" id="whatsappButton" href="" target="_blank" rel="noopener" aria-disabled="false">
+          <span class="action-icon">♡</span>
+          <span><strong>Confirmar asistencia</strong><small>Envíanos un mensaje</small></span>
+        </a>
+      </div>
+      <p class="pending-note" id="pendingNote">Los enlaces de ubicación y confirmación se habilitarán próximamente.</p>
+      <footer>Con amor, Melissa y Antonio <span>✦</span></footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

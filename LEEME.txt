@@ -1,0 +1,20 @@
+INVITACIÓN WEB · ZOE ANTONELLA
+
+Archivos:
+- index.html: estructura de la invitación.
+- styles.css: estilos y diseño adaptable a celular.
+- script.js: apertura de la invitación y enlaces.
+- video-invitacion.mp4: video original proporcionado.
+
+PARA PROBAR:
+1. Mantén todos los archivos en la misma carpeta.
+2. Abre index.html en un navegador.
+3. Pulsa “Abrir invitación”.
+
+PARA AGREGAR LOS ENLACES:
+Abre script.js y reemplaza los valores vacíos:
+maps: "URL_DE_GOOGLE_MAPS"
+whatsapp: "https://wa.me/52NUMERO?text=Hola%2C%20confirmo%20mi%20asistencia"
+
+PUBLICACIÓN:
+Sube la carpeta completa a un servicio de hosting estático. No basta con compartir solo index.html, porque el video debe acompañarlo.
