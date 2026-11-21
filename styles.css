@@ -1,6 +1,7 @@
 * { box-sizing: border-box; }
 :root {
   --pink: #bd2867;
+  --rosa_pastel:#D89A9E;
   --pink-dark: #9f1e55;
   --blush: #f9e8ef;
   --paper: #fffdfd;
@@ -27,11 +28,11 @@ main { width: 100%; overflow: hidden; }
 }
 .stars { color: #d98aaa; letter-spacing: 5px; font-size: 19px; margin-bottom: 18px; }
 .eyebrow { color: var(--pink); letter-spacing: .19em; font-size: 10px; font-weight: 600; }
-h1, h2, .name { font-family: "Playfair Display", Georgia, serif; font-weight: 500; }
-h1 { font-size: clamp(36px, 9vw, 51px); margin: 8px 0 0; color: #704d5c; }
-.name { color: var(--pink); font-style: italic; font-size: 29px; margin: 2px 0 15px; }
+h1, h2 { font-family: "Playfair Display", Georgia, serif; font-weight: 500; }
+h1 { font-size: clamp(24px, 6vw, 36px); margin: 8px 0 0; color: #704d5c; }
+.name { color: var(--pink); font-family: 'Handlee',cursive; font-size: 50px; margin: 2px 0 15px; font-weight: 400; }
 .intro { max-width: 290px; margin: 0 auto 23px; line-height: 1.7; font-size: 14px; color: var(--muted); }
-.small-note { margin: 20px 0 0; font-family: "Playfair Display", serif; font-style: italic; color: #9a7787; font-size: 15px; }
+.small-note { margin: 20px 0 0; font-family: "Handlee", serif; font-style: italic; color: #9a7787; font-size: 15px; }
 .open-button {
   border: 0; border-radius: 999px; padding: 14px 25px; color: white; background: var(--pink);
   font: 600 13px "DM Sans", sans-serif; cursor: pointer; box-shadow: 0 8px 20px rgba(189,40,103,.20);
@@ -39,6 +40,16 @@ h1 { font-size: clamp(36px, 9vw, 51px); margin: 8px 0 0; color: #704d5c; }
 }
 .open-button:hover { transform: translateY(-2px); background: var(--pink-dark); }
 .open-button span { margin-left: 8px; }
+.teddy-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.teddy-img {
+  width: 140px; /* Puedes ajustar este valor si la quieres más grande o pequeña */
+  height: auto;
+  display: inline-block;
+}
 .teddy { width: 112px; height: 112px; margin: 0 auto 20px; position: relative; }
 .bear-face {
   position: absolute; width: 82px; height: 78px; border-radius: 48% 48% 45% 45%;
@@ -64,6 +75,7 @@ h1 { font-size: clamp(36px, 9vw, 51px); margin: 8px 0 0; color: #704d5c; }
   width: min(100%, 390px); margin: 0 auto; padding: 7px; background: white;
   border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 15px 45px rgba(150,75,108,.12);
 }
+
 video { display: block; width: 100%; max-height: 72svh; aspect-ratio: 9 / 16; object-fit: contain; background: #fff; border-radius: 14px; }
 .actions { width: min(100%, 480px); display: grid; gap: 12px; margin: 25px auto 0; }
 .action-button {
