@@ -90,9 +90,52 @@ video { display: block; width: 100%; max-height: 72svh; aspect-ratio: 9 / 16; ob
 .action-button strong { font-size: 14px; }
 .action-button small { margin-top: 3px; color: var(--muted); font-size: 11px; }
 .pending-note { color: var(--muted); font-size: 11px; margin: 16px 0 0; }
-footer { margin: 38px 0 5px; color: #987d89; font-family: "Playfair Display", serif; font-style: italic; }
+footer { margin: 38px 0 5px; color: #987d89; font-family: "Handlee", serif; font-style: italic; }
 footer span { color: var(--pink); margin-left: 7px; }
 @media (min-width: 700px) {
   .invitation { padding-top: 55px; }
   .actions { grid-template-columns: 1fr 1fr; }
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 18px 0 22px;
+}
+
+.time-box {
+  background-color: #fff8fb;
+  border: 1px solid rgba(216, 154, 158, 0.35);
+  border-radius: 14px;
+  padding: 10px 8px;
+  min-width: 62px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(216, 154, 158, 0.12);
+}
+
+.time-box span {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--pink, #d89a9e);
+  line-height: 1.1;
+}
+
+.time-box small {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #777;
+  margin-top: 4px;
+}
+
+.countdown-finished {
+  font-family: 'Handlee', cursive;
+  font-size: 22px;
+  color: var(--pink, #d89a9e);
+  text-align: center;
+  margin: 10px 0;
 }
