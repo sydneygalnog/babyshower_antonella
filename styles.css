@@ -32,7 +32,7 @@ h1, h2 { font-family: "Playfair Display", Georgia, serif; font-weight: 500; }
 h1 { font-size: clamp(24px, 6vw, 36px); margin: 8px 0 0; color: #704d5c; }
 .name { color: var(--pink); font-family: 'Handlee',cursive; font-size: 50px; margin: 2px 0 15px; font-weight: 400; }
 .intro { max-width: 290px; margin: 0 auto 23px; line-height: 1.7; font-size: 17px; color: var(--muted); }
-.small-note { margin: 20px 0 0; font-family: "Handlee", serif; font-style: italic; color: #9a7787; font-size: 15px; }
+.small-note { margin: 20px 0 0; font-family: "Handlee", serif; font-style: italic; color: #9a7787; font-size: 18px; }
 .open-button {
   border: 0; border-radius: 999px; padding: 14px 25px; color: white; background: var(--pink);
   font: 600 13px "DM Sans", sans-serif; cursor: pointer; box-shadow: 0 8px 20px rgba(189,40,103,.20);
