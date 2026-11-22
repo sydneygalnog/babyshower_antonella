@@ -27,11 +27,11 @@ main { width: 100%; overflow: hidden; }
   background: rgba(255,253,253,.92); box-shadow: 0 18px 60px rgba(150,75,108,.10);
 }
 .stars { color: #d98aaa; letter-spacing: 5px; font-size: 19px; margin-bottom: 18px; }
-.eyebrow { color: var(--pink); letter-spacing: .19em; font-size: 10px; font-weight: 600; }
+.eyebrow { color: var(--pink); letter-spacing: .19em; font-size: 15px; font-weight: 600; }
 h1, h2 { font-family: "Playfair Display", Georgia, serif; font-weight: 500; }
 h1 { font-size: clamp(24px, 6vw, 36px); margin: 8px 0 0; color: #704d5c; }
 .name { color: var(--pink); font-family: 'Handlee',cursive; font-size: 50px; margin: 2px 0 15px; font-weight: 400; }
-.intro { max-width: 290px; margin: 0 auto 23px; line-height: 1.7; font-size: 14px; color: var(--muted); }
+.intro { max-width: 290px; margin: 0 auto 23px; line-height: 1.7; font-size: 17px; color: var(--muted); }
 .small-note { margin: 20px 0 0; font-family: "Handlee", serif; font-style: italic; color: #9a7787; font-size: 15px; }
 .open-button {
   border: 0; border-radius: 999px; padding: 14px 25px; color: white; background: var(--pink);
